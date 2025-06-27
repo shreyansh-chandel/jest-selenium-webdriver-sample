@@ -12,9 +12,7 @@ const AutomationClient = LambdaTestRestClient.AutomationClient({
 });
 const capabilities = {
   "browserName": "Chrome",
-  "browserVersion": "latest",
   "LT:Options": {
-    "platformName": "Windows 10",
     "project": "Jest-Lambdatest-Project",
     "build": "SmartUI-jest-sample",
     "w3c": true,
